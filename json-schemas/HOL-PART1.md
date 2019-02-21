@@ -63,7 +63,7 @@
 
         db.testCol.insertOne({b:"test",d:NumberInt(-1),c:1}) //doesn't work because d cannot be negative
 
-1. Let's add an additional `e` field and constraint (e can only be equal to 43 or "mongodb") by running the following command:
+1. Let's add an additional `e` field and constraint (e can only be equal to 42 or "mongodb") by running the following command:
 
         db.testCol.drop()
         db.createCollection( "testCol",
